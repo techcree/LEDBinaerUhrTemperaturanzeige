@@ -1,0 +1,21 @@
+#by StSkanta (TechCree) 838375
+#1. main.py
+#    Automatisches main.py wird gestartet - führt eine LED Sequenz aus um alle LEDs zu testen und startet dannach das buzzer.py Script
+
+#2. buzzer.py
+#    Führt das buzzer Signal bzw. die Signal folge (gibt einen Ton aus) aus und startet dannach das start.py Script
+
+#3. start.py
+#    Sartet LED Test und dannach das clock.py Script
+
+#4. clock.py
+#    start des Hauptscriptes um die Uhrzeit auszulesen und anzuzeigen
+
+
+#Anrodnung der LEDS
+
+
+#   8						O	led19.value(0)						O	led11.value(0)	O	led07.value(0)	O	led03.value(0)	8
+#   3	O	led22.value(0)	O	led18.value(0)	O	led14.value(0)	O	led10.value(0)	O	led06.value(0)	O	led02.value(0)	3
+#   2	O	led21.value(0)	O	led17.value(0)	O	led13.value(0)	O	led09.value(0)	O	led05.value(0)	O	led01.value(0)	2
+#   1	O	led20.value(0)	O	led16.value(0)	O	led12.value(0)	O	led08.value(0)	O	led04.value(0)	O	led00.value(0)	1
